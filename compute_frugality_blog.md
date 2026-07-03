@@ -37,7 +37,7 @@ Training tasks: arithmetic only. Pattern sequences and propositional logic were 
 
 The frugal model didn't just transfer efficiency to logic tasks — it maximized it. Two tokens. On tasks it was never trained on. The pattern result (−8%) is a ceiling effect, not a failure: both models were already producing short answers for sequence completion.
 
-The Manual inspection of the baseline's logic failures reveals the mechanism: 16 of 18 apparent failures began with the correct answer, followed by a reasoning chain that overrode it. **The main cost of verbosity in deployed systems is format reliability, not reasoning quality.** A response like "Yes, all mammals are living things. Mammals are animals that..." contains the right answer, but any downstream system — automated evaluators, human readers, downstream model calls — is less reliable with 80 tokens of exposition than with a direct 2-token answer. The frugal model sidesteps this failure mode entirely.
+Manual inspection of the baseline's logic failures reveals the mechanism: 16 of 18 apparent failures began with the correct answer, followed by a reasoning chain that overrode it. **The main cost of verbosity in deployed systems is format reliability, not reasoning quality.** A response like "Yes, all mammals are living things. Mammals are animals that..." contains the right answer, but any downstream system — automated evaluators, human readers, downstream model calls — is less reliable with 80 tokens of exposition than with a direct 2-token answer. The frugal model sidesteps this failure mode entirely.
 
 ### Test 2 — Does behavior change when the model thinks no one is watching?
 
