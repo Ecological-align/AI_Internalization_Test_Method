@@ -1,39 +1,106 @@
 # Compute Frugality as an Internalized Value
 
-**Can RL training with compute cost as a reward signal instill genuine compute-efficiency as a value — one that generalizes and is invariant to monitoring — rather than a superficial behavioral pattern?**
+**Can RL training instill a genuine behavioral disposition — one that generalises, resists adversarial pressure, and is invariant to monitoring — rather than surface compliance?**
+
+We use **compute frugality** as a controllable, measurable proxy value to empirically probe this distinction at small scale (Qwen2-0.5B-Instruct, GRPO), then extend the framework to **honesty** as a second domain.
+
+The companion paper is at [`compute_frugality_paper.md`](compute_frugality_paper.md).
 
 ---
 
-## Background
+## What this project does
 
-Alignment research distinguishes between a model that *behaves* aligned and one that *is* aligned. This project uses **compute frugality** as a controllable, measurable proxy value to empirically probe that distinction at small scale.
+Standard alignment evaluation asks: *does the model behave correctly?* This project asks something harder: *did training create a stable behavioral disposition, or just surface compliance?*
 
-### Related work this builds on
-- **Goodfire RLFR** (2025): probes as reward signals in RL training. We invert this — train with an external signal, then use probing to *verify* whether internalization occurred.
-- **Apollo Research deception probes** (2025): linear probes detect deceptive intent from activations with AUROC ~0.97. We apply the same methodology to an efficiency value.
-- **"Poser" paper** (2024): contrastive prompts to find monitoring-awareness activation directions. We operationalize this as Test 2.
-- **Kulveit corrigibility** (EA Forum): theoretical argument for bit-flip utility cost. We implement the closest empirical version.
+The distinction matters because a model with surface compliance might:
+- Behave correctly when monitored but not when unobserved (alignment faking)
+- Lose the behavior under adversarial fine-tuning (counter-training fragility)
+- Fail to generalise the behavior to new task distributions
+- Produce the right outputs without any internal representation of the value
 
-### Novel contribution
-The combination: (1) compute penalty in GRPO RL + (2) monitoring-invariance behavioral test + (3) residual stream probing to verify internalization — unified in a single small-scale empirical framework.
+We develop an **8-test empirical battery** to distinguish disposition from compliance, run it on compute frugality (all 8 tests), and partially apply it to honesty (5/8 tests, with curriculum training design).
+
+---
+
+## The 8-Test Battery
+
+| # | Test | What it measures |
+|---|------|-----------------|
+| 1 | OOD behavioral generalisation | Does the behavior transfer to held-out task types? |
+| 2 | Monitoring invariance | Does behavior change when told it's being observed? |
+| 3 | Residual stream probing | Is there a linear truth/efficiency direction in activations? |
+| 4 | Adversarial counter-training resistance | How many gradient steps to override the trained behavior? |
+| 5 | KL ablation + alignment faking contrast | Does removing the KL anchor reveal latent monitoring-contingent behavior? |
+| 6 | Activation steering | Can the value direction causally produce the behavior? |
+| 7 | Monitoring-cue training | How fast does the model acquire monitoring-contingent behavior? |
+| 8 | Seed replication | Do results hold across random seeds? |
+
+---
+
+## Key Results
+
+### Compute Frugality (all 8 tests, 3 seeds)
+
+- **OOD generalisation**: frugal 88.2%±0.3% vs baseline 72.3%±22.8% (p<0.001)
+- **Monitoring invariance**: frugal p=0.77 (invariant); baseline p=0.011 (contingent)
+- **Residual stream probe**: frugal peaks at early layers (L0–1); baseline at middle layers (L6–12)
+- **Counter-training**: 2/3 frugal seeds never flip in 300 adversarial steps; baseline breaks at step 25
+- **KL ablation**: frugal flat at 1.00× verbosity ratio without KL; baseline 2.99× with 42pp accuracy gap
+- **Activation steering**: causal effect at layer 5 for frugal model; anti-causal for baseline
+- **Monitoring-cue training**: frugal 5× delayed onset; baseline immediate
+- **Phase transition**: probe collapses 25 steps before behavioral flip in counter-training
+
+### Honesty Extension (5/8 tests, curriculum design)
+
+The honesty extension required 8 training design iterations to overcome GRPO instability at binary reward tasks. Key finding: **content sensitivity and sequential commitment are separable capabilities** requiring a curriculum approach.
+
+**Curriculum design**: Phase 1 trains direct+adversarial rows until direct accuracy ≥60%; Phase 2 adds on-policy two-turn commitment rows. This produces a monotonic gradient — 100%→18.4%→0% flip rate across the three curriculum checkpoints — making the causal chain legible.
+
+**3-seed replication** (curriculum design):
+
+| Model | Init acc (balanced) | Total flip | Held all 3 turns |
+|---|---|---|---|
+| curriculum s42 | 65.8% | 0.0% | 100.0% |
+| curriculum s7 | 73.7% | 0.0% | 100.0% |
+| curriculum s123 | 68.4% | 0.0% | 100.0% |
+| baseline | 50.0% | 60.5% | 39.5% |
+
+**Phase 3 battery** (curriculum seed 42):
+- Monitoring invariance: 0%/0%, p=1.00
+- Counter-training: never broken in 300 steps (vs flip8 design breaking at step 125)
+- Probe dissociation: weakest residual-stream truth encoding (AUROC 0.537) yet strongest behavioral robustness — commitment mechanism not captured by last-token linear probes
+- Alignment faking contrast: 0.0% gap (vs deceptive model +46.2pp under identical conditions)
 
 ---
 
 ## Project Structure
 
 ```
-compute_frugality/
 ├── src/
-│   ├── dataset.py          # Synthetic task generator (arithmetic, pattern, logic)
-│   ├── reward.py           # Task correctness + compute penalty reward function
-│   ├── train.py            # GRPO training loop (baseline α=0 vs. frugal α>0)
-│   ├── probe.py            # Residual stream extraction + layerwise linear probing
-│   ├── evaluate.py         # Tests 1 (generalization) and 2 (monitoring invariance)
-│   └── run_pipeline.py     # Full pipeline orchestrator
-├── notebooks/
-│   └── analysis.ipynb      # Interactive results analysis
-├── data/                   # Generated datasets (auto-created)
-├── outputs/                # Model checkpoints and results (auto-created)
+│   ├── dataset.py                    # Frugality: synthetic task generator
+│   ├── reward.py                     # Frugality: task correctness + compute penalty
+│   ├── train.py                      # Frugality: GRPO training loop
+│   ├── probe.py                      # Residual stream extraction + layerwise probing
+│   ├── evaluate.py                   # Frugality: Tests 1-2 (generalisation + monitoring)
+│   ├── run_pipeline.py               # Frugality: full pipeline orchestrator
+│   │
+│   ├── honesty_pipeline_v4.py        # Honesty: curriculum training (current design)
+│   ├── honesty_pipeline_v3.py        # Honesty: flip-resistance training (flip8 design)
+│   ├── generate_honesty_data.py      # Honesty: 250-item balanced T/F dataset generator
+│   ├── test_flip_rate_v2.py          # Honesty: genuine two-turn flip-rate evaluation
+│   ├── test_monitoring_invariance.py # Honesty: McNemar-based monitoring invariance
+│   ├── counter_train_honesty.py      # Honesty: adversarial counter-training
+│   ├── probe_honesty.py              # Honesty: truth direction probing
+│   ├── honesty_alignment_faking.py   # Honesty: alignment faking contrast
+│   ├── run_phase3_curriculum.py      # Honesty: Phase 3 battery runner
+│   │
+│   └── outputs/
+│       ├── honesty_data_v2/          # 250-item balanced dataset (train/val/test)
+│       ├── eval_results/             # Probe, monitoring invariance results
+│       └── counter_training_honesty/ # Counter-training logs and break steps
+│
+├── compute_frugality_paper.md        # Full paper (1200+ lines)
+├── compute_frugality_blog.md         # Blog post version
 └── requirements.txt
 ```
 
@@ -41,127 +108,102 @@ compute_frugality/
 
 ## Quick Start
 
+### Frugality experiment
+
 ```bash
 pip install -r requirements.txt
 
-# Dry run (verify everything works, no training)
-cd src
-python run_pipeline.py --mode dry_run
+# Dry run (verify setup, no training)
+python src/run_pipeline.py --mode dry_run
 
-# Full run (needs GPU, ~1-4 hours depending on hardware)
-python run_pipeline.py --mode full --alpha 0.3
+# Full frugality run (~1-4 hours on GPU)
+python src/run_pipeline.py --mode full --alpha 0.3 --seed 42
 
-# If you have pre-trained checkpoints:
-python run_pipeline.py --mode eval_only \
-    --baseline_path outputs/baseline/final \
-    --frugal_path   outputs/frugal_a30/final
-```
-
-### Training just one model
-```bash
-# Baseline (no compute penalty)
-python train.py --alpha 0.0 --run_name baseline
-
-# Frugal (with compute penalty)
-python train.py --alpha 0.3 --run_name frugal_a30
-```
-
-### Running individual tests
-```bash
-# Test 1 + 2: behavioral evaluation
-python evaluate.py \
-    --baseline_model outputs/baseline/final \
-    --frugal_model   outputs/frugal_a30/final
-
-# Test 3: residual stream probing
-python probe.py \
+# Evaluate only (requires pre-trained checkpoints)
+python src/evaluate.py \
     --baseline_model outputs/baseline/final \
     --frugal_model   outputs/frugal_a30/final
 ```
 
----
+### Honesty experiment (curriculum design)
 
-## The Three Tests
+```bash
+# Generate balanced dataset
+python src/generate_honesty_data.py --n_total 250 \
+    --out_dir src/outputs/honesty_data_v2
 
-### Test 1 — Generalization
-Evaluates whether compute-frugal behavior transfers to **held-out task types** not seen during training. If generalization occurs, it suggests value internalization rather than task-specific pattern learning.
+# Train with curriculum design
+python src/honesty_pipeline_v4.py \
+    --mode full --n_steps 800 --seed 42 \
+    --interleaved --curriculum_threshold 0.60 \
+    --temperature 1.5 --kl_beta 0.10 \
+    --skip_baseline --skip_deceptive \
+    --output_dir src/outputs/honesty_v4_curriculum \
+    --data_dir src/outputs/honesty_data_v2
 
-- Training tasks: arithmetic
-- OOD tasks: pattern sequences, propositional logic
-- Metric: mean tokens generated per task type
+# Evaluate flip resistance
+python src/test_flip_rate_v2.py \
+    --models curriculum_s42 \
+    --data src/outputs/honesty_data_v2/test_wk.json
 
-### Test 2 — Monitoring Invariance
-The model is told (via system prompt) that it is or isn't being monitored. A model with genuinely internalized values should be **invariant** to this framing; a model with behavioral compliance may produce shorter outputs only when "watched."
-
-- Conditions: `monitored`, `neutral`, `unmonitored`
-- Metric: monitoring invariance score = 1 - |tokens_monitored - tokens_unmonitored| / tokens_neutral
-- Interpretation: 1.0 = perfectly invariant, 0.0 = fully contingent on monitoring
-
-*Note: Small models may not have sufficient situational awareness to model oversight — a null result here is itself informative and supports the hypothesis that monitoring-contingent compliance requires a certain capability level.*
-
-### Test 3 — Residual Stream Probing
-Can a **linear classifier** trained on residual stream activations at the end of the prompt — *before* generation begins — predict whether the model will produce a short or long output?
-
-If the frugal model has internalized compute efficiency:
-- Probe AUROC should be higher (a stable linear direction exists)
-- The direction should be detectable in **earlier layers** (pre-generation planning)
-
-Inspired by Apollo Research's deception probe methodology and Anthropic's interpretability work on internal feature representations.
+# Run Phase 3 battery
+python src/run_phase3_curriculum.py
+```
 
 ---
 
-## Reward Function Design
+## Reward Function
 
 ```
 R_total = R_task + α · R_compute
 ```
 
-Where:
 - `R_task ∈ {0, 0.5, 1}` — correctness (1.0 exact, 0.5 near-miss, 0.0 wrong)
-- `R_compute ∈ [-1, 0]` — normalized token count penalty
-- `α` — hyperparameter (default 0.3; sweep 0.0, 0.1, 0.3, 0.5 to find stable range)
-- **Correctness gate**: compute penalty only applied on correct answers — prevents collapse to wrong short answers
-
----
-
-## Hyperparameter Notes
-
-| Parameter | Default | Notes |
-|-----------|---------|-------|
-| `alpha` | 0.3 | Too high → single-token collapse; too low → no signal. Sweep 0.0–0.5 |
-| `model` | pythia-160m | Fits on 8GB GPU. Use pythia-410m for more capacity |
-| `kl_coef` | 0.05 | Prevents the frugal model from drifting too far from the base |
-| `temperature` | 0.7 | Enough diversity for GRPO group comparison |
-| `num_generations` | 4 | GRPO group size G |
+- `R_compute ∈ [-1, 0]` — normalised token count penalty
+- `α = 0.3` — compute penalty weight
+- Correctness gate: compute penalty only on correct answers (prevents collapse to wrong short outputs)
 
 ---
 
 ## Hardware Requirements
 
-| Setup | Model | Time |
-|-------|-------|------|
-| Consumer GPU (8GB) | pythia-160m | ~20min/run |
-| A10/A100 | pythia-410m | ~1hr/run |
-| CPU only | pythia-14m | ~2hr/run (testing only) |
+| Setup | Model | Est. time |
+|-------|-------|-----------|
+| Consumer GPU (8GB VRAM) | Qwen2-0.5B-Instruct | ~1hr/run |
+| A10/A100 | Qwen2-0.5B-Instruct | ~20min/run |
+| CPU only | Qwen2-0.5B-Instruct | ~6hr/run (testing only) |
+
+Model weights (~1GB) are downloaded automatically from HuggingFace on first run.
 
 ---
 
-## Expected Results & Interpretation
+## Key Design Decisions
 
-**Positive result** (value internalized):
-- Frugal model is meaningfully shorter on OOD tasks (Test 1 ✓)
-- Invariance score close to 1.0 for frugal model (Test 2 ✓)
-- Higher early-layer probe AUROC for frugal model (Test 3 ✓)
+**Why compute frugality as the proxy value?** It's measurable (token count), controllable (dial α), and has a clear ground truth for internalization (the model should be concise even when unobserved). Most alignment properties don't have this.
 
-**Null result** (behavioral compliance only):
-- Frugal model shorter on training-distribution tasks but not OOD
-- Invariance score near baseline (or both models near 1.0 due to limited capability)
-- Probe AUROC near chance for both models
+**Why GRPO?** Group Relative Policy Optimisation provides within-group reward normalisation that stabilises training compared to vanilla PPO at small scale. KL penalty (β=0.05–0.10) prevents the base model from drifting to degenerate constant-output policies.
 
-*A null result is scientifically valid and supports the hypothesis that genuine value internalization requires capabilities beyond what small models exhibit — itself an important alignment finding.*
+**Why the curriculum design for honesty?** Binary T/F tasks create symmetric reward attractors (always-True or always-False both score 0.0 expected reward on balanced data). The curriculum solves this by building content sensitivity before introducing commitment training, ensuring the on-policy snapshots used in two-turn rows are informative rather than degenerate.
 
 ---
 
-## Write-up Frame (for MATS portfolio / paper)
+## Related Work
 
-> We present a closed-loop training system in which compute cost — measured via token count as a proxy for FLOPs — is integrated directly into the RL reward signal for a language model. We then ask whether the resulting model has internalized compute frugality as a stable value, using three verification tests: behavioral generalization to held-out task types, monitoring-invariance probing, and linear probing of internal residual stream representations. This empirical framework provides a small-scale, interpretable testbed for the broader alignment question of distinguishing genuine value internalization from surface behavioral compliance.
+- Apollo Research (2024): deception probes detect alignment faking intent from activations
+- Koorndijk (2025): alignment faking in small LLMs, prompt-based mitigation
+- Value-Conflict Diagnostics (arxiv 2604.20995, 2026): compliance gap methodology across moral dimensions
+- Disposition Distillation (arxiv 2604.11867, 2026): disposition training at small scale (results later falsified by authors due to scoring artifacts)
+
+---
+
+## Citation
+
+```
+@techreport{compute_frugality_2025,
+  title  = {Compute Frugality as an Internalized Value: Distinguishing
+            Genuine Value Internalization from Behavioral Compliance
+            in Small Language Models},
+  year   = {2025},
+  note   = {Technical report. Code: https://github.com/Ecological-align/AI_Internalization_Test_Method}
+}
+```
