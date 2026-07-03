@@ -1,0 +1,106 @@
+[
+  {
+    "step": 0,
+    "mean_tokens": 12.54,
+    "std_tokens": 9.843190539657353,
+    "mean_reward": 0.9206399999999999,
+    "accuracy": 0.9,
+    "flipped": false
+  },
+  {
+    "step": 25,
+    "mean_tokens": 14.84,
+    "std_tokens": 13.807765930808648,
+    "mean_reward": 0.9249199999999999,
+    "accuracy": 0.9,
+    "flipped": false
+  },
+  {
+    "step": 50,
+    "mean_tokens": 19.72,
+    "std_tokens": 15.835453893084342,
+    "mean_reward": 0.95604,
+    "accuracy": 0.92,
+    "flipped": false
+  },
+  {
+    "step": 75,
+    "mean_tokens": 27.2,
+    "std_tokens": 22.366939889041593,
+    "mean_reward": 0.94636,
+    "accuracy": 0.9,
+    "flipped": true
+  },
+  {
+    "step": 100,
+    "mean_tokens": 29.74,
+    "std_tokens": 27.190299740900244,
+    "mean_reward": 0.9713600000000001,
+    "accuracy": 0.92,
+    "flipped": true
+  },
+  {
+    "step": 125,
+    "mean_tokens": 43.86,
+    "std_tokens": 35.31855602937357,
+    "mean_reward": 0.8155600000000001,
+    "accuracy": 0.76,
+    "flipped": true
+  },
+  {
+    "step": 150,
+    "mean_tokens": 60.94,
+    "std_tokens": 51.05229083988298,
+    "mean_reward": 0.84292,
+    "accuracy": 0.76,
+    "flipped": true
+  },
+  {
+    "step": 175,
+    "mean_tokens": 62.6,
+    "std_tokens": 61.53600572022855,
+    "mean_reward": 0.74692,
+    "accuracy": 0.7,
+    "flipped": true
+  },
+  {
+    "step": 200,
+    "mean_tokens": 46.94,
+    "std_tokens": 50.13358554901095,
+    "mean_reward": 0.9523199999999998,
+    "accuracy": 0.88,
+    "flipped": true
+  },
+  {
+    "step": 225,
+    "mean_tokens": 59.72,
+    "std_tokens": 55.312580847398536,
+    "mean_reward": 0.8034399999999999,
+    "accuracy": 0.74,
+    "flipped": true
+  },
+  {
+    "step": 250,
+    "mean_tokens": 46.42,
+    "std_tokens": 39.63235546873287,
+    "mean_reward": 0.982,
+    "accuracy": 0.9,
+    "flipped": true
+  },
+  {
+    "step": 275,
+    "mean_tokens": 52.42,
+    "std_tokens": 48.33429010547274,
+    "mean_reward": 0.8925600000000001,
+    "accuracy": 0.82,
+    "flipped": true
+  },
+  {
+    "step": 300,
+    "mean_tokens": 49.9,
+    "std_tokens": 35.29773363829469,
+    "mean_reward": 0.8478399999999999,
+    "accuracy": 0.78,
+    "flipped": true
+  }
+]

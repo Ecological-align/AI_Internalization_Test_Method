@@ -1,0 +1,88 @@
+# ===== Model Weights & Training States =====
+*.safetensors
+optimizer.pt
+rng_state*.pth
+scheduler.pt
+
+# ===== Top-level directories =====
+# Frugality experiment outputs (28GB)
+/outputs/
+
+# Archive logs
+/logs_archive/
+
+# ===== src/outputs: large model checkpoint directories =====
+
+# Exclude ALL checkpoint directories at any depth (tokenizer.json, optimizer.pt, model copies)
+**/checkpoints/
+
+# outputs_archive (27GB — old failed experiment checkpoints)
+src/outputs_archive/
+
+# Replication dir (5.6GB model copies)
+src/outputs/replication/
+
+# honesty/alignment_faking_kl_ablation (4.7GB — KL ablation alignment faking models)
+src/outputs/honesty/alignment_faking_kl_ablation/
+
+# honesty v3 model dirs — failed experiments (flip1–7) and flip8 final models
+src/outputs/honesty_v3/
+src/outputs/honesty_v3_flip/
+src/outputs/honesty_v3_flip2/
+src/outputs/honesty_v3_flip3/
+src/outputs/honesty_v3_flip4_largedata/
+src/outputs/honesty_v3_flip5/
+src/outputs/honesty_v3_flip6/
+src/outputs/honesty_v3_flip7/
+src/outputs/honesty_v3_flip8/
+src/outputs/honesty_v3_flip8_s7/
+src/outputs/honesty_v3_flip8_s123/
+
+# honesty v4 model dirs (training logs live at src/outputs/*.log, not inside these dirs)
+src/outputs/honesty_v4_interleaved/
+src/outputs/honesty_v4_interleaved_onpolicy/
+src/outputs/honesty_v4_interleaved_onpolicy_s7/
+src/outputs/honesty_v4_interleaved_onpolicy_s123/
+src/outputs/honesty_v4_unified/
+src/outputs/honesty_v4_curriculum/
+src/outputs/honesty_v4_curriculum_s7/
+src/outputs/honesty_v4_curriculum_s123/
+
+# Gaslighting v2 — exclude model subdirs, keep data/ and result JSONs at top level
+src/outputs/gaslighting_v2/honest/
+src/outputs/gaslighting_v2/deceptive/
+src/outputs/gaslighting_v2/baseline/
+
+# Old honesty v2 experiment — exclude model subdirs, keep data/ and results
+src/outputs/honesty/honest/
+src/outputs/honesty/deceptive/
+src/outputs/honesty/baseline/
+
+# Frugality model dirs
+src/outputs/frugal_a30/
+src/outputs/frugal_full/
+src/outputs/frugal_trivial/
+src/outputs/baseline/
+src/outputs/baseline_full/
+src/outputs/baseline_trivial/
+
+# Misc large experiment dirs
+src/outputs/honesty_sft_warmstart/
+src/outputs/monitoring_cue/
+src/outputs/trivial_eval/
+
+# ===== Python virtualenv =====
+.venv/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== IDE / tooling =====
+.claude/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+C:\Users\rmjoc\AI_Development\ComputeEfficiency\.venv\Lib\site-packages\torch\compiler\__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.
+  return torch._dynamo.allow_in_graph(fn)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  80%|########  | 233/290 [00:00<00:00, 2318.65it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2406.86it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  86%|########5 | 248/290 [00:00<00:00, 2296.50it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2532.99it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  80%|#######9  | 231/290 [00:00<00:00, 2276.10it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2239.62it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  81%|########1 | 236/290 [00:00<00:00, 2348.48it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2437.21it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  78%|#######8  | 227/290 [00:00<00:00, 2247.74it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2367.60it/s]

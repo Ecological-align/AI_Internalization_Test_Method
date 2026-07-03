@@ -1,0 +1,86 @@
+{
+  "frugal": [
+    {
+      "scale": -20.0,
+      "mean_tokens": 139.94,
+      "accuracy": 0.0
+    },
+    {
+      "scale": -10.0,
+      "mean_tokens": 5.46,
+      "accuracy": 0.14
+    },
+    {
+      "scale": 0.0,
+      "mean_tokens": 11.08,
+      "accuracy": 0.92
+    },
+    {
+      "scale": 10.0,
+      "mean_tokens": 13.67,
+      "accuracy": 0.21
+    },
+    {
+      "scale": 20.0,
+      "mean_tokens": 50.77,
+      "accuracy": 0.02
+    },
+    {
+      "scale": 40.0,
+      "mean_tokens": 145.68,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 60.0,
+      "mean_tokens": 150.0,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 80.0,
+      "mean_tokens": 150.0,
+      "accuracy": 0.0
+    }
+  ],
+  "baseline": [
+    {
+      "scale": -20.0,
+      "mean_tokens": 76.88,
+      "accuracy": 0.0
+    },
+    {
+      "scale": -10.0,
+      "mean_tokens": 109.89,
+      "accuracy": 0.22
+    },
+    {
+      "scale": 0.0,
+      "mean_tokens": 29.31,
+      "accuracy": 0.94
+    },
+    {
+      "scale": 10.0,
+      "mean_tokens": 10.84,
+      "accuracy": 0.21
+    },
+    {
+      "scale": 20.0,
+      "mean_tokens": 145.98,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 40.0,
+      "mean_tokens": 150.0,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 60.0,
+      "mean_tokens": 150.0,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 80.0,
+      "mean_tokens": 150.0,
+      "accuracy": 0.0
+    }
+  ]
+}

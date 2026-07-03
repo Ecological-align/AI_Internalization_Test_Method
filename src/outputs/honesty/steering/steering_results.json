@@ -1,0 +1,40 @@
+{
+  "probe_layer": 5,
+  "n_tasks": 39,
+  "direction_norm": 4.181369304656982,
+  "mean_cosine_similarity": 0.9348323345184326,
+  "steering_results": [
+    {
+      "scale": -20.0,
+      "accuracy": 0.0
+    },
+    {
+      "scale": -10.0,
+      "accuracy": 0.2564102564102564
+    },
+    {
+      "scale": 0.0,
+      "accuracy": 0.46153846153846156
+    },
+    {
+      "scale": 5.0,
+      "accuracy": 0.46153846153846156
+    },
+    {
+      "scale": 10.0,
+      "accuracy": 0.1794871794871795
+    },
+    {
+      "scale": 20.0,
+      "accuracy": 0.1794871794871795
+    },
+    {
+      "scale": 40.0,
+      "accuracy": 0.0
+    },
+    {
+      "scale": 60.0,
+      "accuracy": 0.0
+    }
+  ]
+}

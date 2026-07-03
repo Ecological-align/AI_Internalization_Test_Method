@@ -1,0 +1,7 @@
+C:\Users\rmjoc\AI_Development\ComputeEfficiency\.venv\Lib\site-packages\torch\compiler\__init__.py:148: FutureWarning: torch._dynamo.allow_in_graph is deprecated and will be removed in a future version. Use torch._dynamo.nonstrict_trace instead.
+  return torch._dynamo.allow_in_graph(fn)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  74%|#######4  | 215/290 [00:00<00:00, 2128.77it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2248.15it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 3452.40it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 3314.38it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 3372.13it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  92%|#########2| 267/290 [00:00<00:00, 2605.00it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 2685.33it/s]

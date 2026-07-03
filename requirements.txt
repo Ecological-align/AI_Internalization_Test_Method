@@ -1,0 +1,10 @@
+torch>=2.0
+transformers>=4.40
+trl>=0.9
+datasets>=2.0
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+accelerate

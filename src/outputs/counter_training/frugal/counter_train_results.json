@@ -1,0 +1,139 @@
+{
+  "model_label": "frugal",
+  "baseline_tokens": 13.2,
+  "flip_threshold": 26.4,
+  "flip_step": null,
+  "probe_flip_step": null,
+  "behavioral_log": [
+    {
+      "step": 0,
+      "mean_tokens": 12.54,
+      "std_tokens": 9.843190539657353,
+      "mean_reward": 0.9206399999999999,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 25,
+      "mean_tokens": 13.0,
+      "std_tokens": 10.650821564555478,
+      "mean_reward": 0.9221600000000001,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 50,
+      "mean_tokens": 13.42,
+      "std_tokens": 11.620826132422772,
+      "mean_reward": 0.9016799999999999,
+      "accuracy": 0.88,
+      "flipped": false
+    },
+    {
+      "step": 75,
+      "mean_tokens": 14.92,
+      "std_tokens": 14.423369925228984,
+      "mean_reward": 0.92568,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 100,
+      "mean_tokens": 14.54,
+      "std_tokens": 13.281882396708683,
+      "mean_reward": 0.9245599999999999,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 125,
+      "mean_tokens": 14.54,
+      "std_tokens": 13.281882396708683,
+      "mean_reward": 0.9245599999999999,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 150,
+      "mean_tokens": 15.08,
+      "std_tokens": 14.390052119433065,
+      "mean_reward": 0.9256399999999999,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 175,
+      "mean_tokens": 15.28,
+      "std_tokens": 14.758102859107602,
+      "mean_reward": 0.92604,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 200,
+      "mean_tokens": 15.32,
+      "std_tokens": 14.8168012742292,
+      "mean_reward": 0.92604,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 225,
+      "mean_tokens": 15.66,
+      "std_tokens": 14.697768538114893,
+      "mean_reward": 0.92648,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 250,
+      "mean_tokens": 15.32,
+      "std_tokens": 14.8168012742292,
+      "mean_reward": 0.92604,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 275,
+      "mean_tokens": 15.68,
+      "std_tokens": 15.128040190322077,
+      "mean_reward": 0.92644,
+      "accuracy": 0.9,
+      "flipped": false
+    },
+    {
+      "step": 300,
+      "mean_tokens": 15.54,
+      "std_tokens": 14.773232550799435,
+      "mean_reward": 0.92648,
+      "accuracy": 0.9,
+      "flipped": false
+    }
+  ],
+  "probe_log": [
+    {
+      "step": 0,
+      "layer": 5,
+      "auroc": 0.9939393939393939,
+      "std": 0.008080808080808095
+    },
+    {
+      "step": 100,
+      "layer": 5,
+      "auroc": 0.9939393939393939,
+      "std": 0.008080808080808095
+    },
+    {
+      "step": 200,
+      "layer": 5,
+      "auroc": 0.98989898989899,
+      "std": 0.020202020202020242
+    },
+    {
+      "step": 300,
+      "layer": 5,
+      "auroc": 0.9919191919191919,
+      "std": 0.016161616161616175
+    }
+  ]
+}

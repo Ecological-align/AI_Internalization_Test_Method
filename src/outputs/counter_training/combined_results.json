@@ -1,0 +1,280 @@
+{
+  "frugal": {
+    "model_label": "frugal",
+    "baseline_tokens": 13.2,
+    "flip_threshold": 26.4,
+    "flip_step": null,
+    "probe_flip_step": null,
+    "behavioral_log": [
+      {
+        "step": 0,
+        "mean_tokens": 12.54,
+        "std_tokens": 9.843190539657353,
+        "mean_reward": 0.9206399999999999,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 25,
+        "mean_tokens": 13.0,
+        "std_tokens": 10.650821564555478,
+        "mean_reward": 0.9221600000000001,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 50,
+        "mean_tokens": 13.42,
+        "std_tokens": 11.620826132422772,
+        "mean_reward": 0.9016799999999999,
+        "accuracy": 0.88,
+        "flipped": false
+      },
+      {
+        "step": 75,
+        "mean_tokens": 14.92,
+        "std_tokens": 14.423369925228984,
+        "mean_reward": 0.92568,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 100,
+        "mean_tokens": 14.54,
+        "std_tokens": 13.281882396708683,
+        "mean_reward": 0.9245599999999999,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 125,
+        "mean_tokens": 14.54,
+        "std_tokens": 13.281882396708683,
+        "mean_reward": 0.9245599999999999,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 150,
+        "mean_tokens": 15.08,
+        "std_tokens": 14.390052119433065,
+        "mean_reward": 0.9256399999999999,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 175,
+        "mean_tokens": 15.28,
+        "std_tokens": 14.758102859107602,
+        "mean_reward": 0.92604,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 200,
+        "mean_tokens": 15.32,
+        "std_tokens": 14.8168012742292,
+        "mean_reward": 0.92604,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 225,
+        "mean_tokens": 15.66,
+        "std_tokens": 14.697768538114893,
+        "mean_reward": 0.92648,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 250,
+        "mean_tokens": 15.32,
+        "std_tokens": 14.8168012742292,
+        "mean_reward": 0.92604,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 275,
+        "mean_tokens": 15.68,
+        "std_tokens": 15.128040190322077,
+        "mean_reward": 0.92644,
+        "accuracy": 0.9,
+        "flipped": false
+      },
+      {
+        "step": 300,
+        "mean_tokens": 15.54,
+        "std_tokens": 14.773232550799435,
+        "mean_reward": 0.92648,
+        "accuracy": 0.9,
+        "flipped": false
+      }
+    ],
+    "probe_log": [
+      {
+        "step": 0,
+        "layer": 5,
+        "auroc": 0.9939393939393939,
+        "std": 0.008080808080808095
+      },
+      {
+        "step": 100,
+        "layer": 5,
+        "auroc": 0.9939393939393939,
+        "std": 0.008080808080808095
+      },
+      {
+        "step": 200,
+        "layer": 5,
+        "auroc": 0.98989898989899,
+        "std": 0.020202020202020242
+      },
+      {
+        "step": 300,
+        "layer": 5,
+        "auroc": 0.9919191919191919,
+        "std": 0.016161616161616175
+      }
+    ]
+  },
+  "baseline": {
+    "model_label": "baseline",
+    "baseline_tokens": 34.8,
+    "flip_threshold": 69.6,
+    "flip_step": 275,
+    "probe_flip_step": 100,
+    "behavioral_log": [
+      {
+        "step": 0,
+        "mean_tokens": 33.74,
+        "std_tokens": 27.833655886354563,
+        "mean_reward": 1.003,
+        "accuracy": 0.94,
+        "flipped": false
+      },
+      {
+        "step": 25,
+        "mean_tokens": 64.04,
+        "std_tokens": 30.14495646040976,
+        "mean_reward": 0.8000800000000001,
+        "accuracy": 0.72,
+        "flipped": false
+      },
+      {
+        "step": 50,
+        "mean_tokens": 61.38,
+        "std_tokens": 31.48135321106766,
+        "mean_reward": 0.8400400000000002,
+        "accuracy": 0.76,
+        "flipped": false
+      },
+      {
+        "step": 75,
+        "mean_tokens": 66.56,
+        "std_tokens": 35.02636721100263,
+        "mean_reward": 0.84648,
+        "accuracy": 0.76,
+        "flipped": false
+      },
+      {
+        "step": 100,
+        "mean_tokens": 63.48,
+        "std_tokens": 28.044421905255955,
+        "mean_reward": 0.8441200000000001,
+        "accuracy": 0.76,
+        "flipped": false
+      },
+      {
+        "step": 125,
+        "mean_tokens": 63.82,
+        "std_tokens": 28.058289327754817,
+        "mean_reward": 0.8440800000000002,
+        "accuracy": 0.76,
+        "flipped": false
+      },
+      {
+        "step": 150,
+        "mean_tokens": 63.38,
+        "std_tokens": 27.87607576399519,
+        "mean_reward": 0.8442400000000001,
+        "accuracy": 0.76,
+        "flipped": false
+      },
+      {
+        "step": 175,
+        "mean_tokens": 63.02,
+        "std_tokens": 28.04317385746485,
+        "mean_reward": 0.79644,
+        "accuracy": 0.72,
+        "flipped": false
+      },
+      {
+        "step": 200,
+        "mean_tokens": 64.38,
+        "std_tokens": 29.1059375385848,
+        "mean_reward": 0.8222399999999999,
+        "accuracy": 0.74,
+        "flipped": false
+      },
+      {
+        "step": 225,
+        "mean_tokens": 65.38,
+        "std_tokens": 30.72776594547674,
+        "mean_reward": 0.82108,
+        "accuracy": 0.74,
+        "flipped": false
+      },
+      {
+        "step": 250,
+        "mean_tokens": 64.2,
+        "std_tokens": 29.109448637856403,
+        "mean_reward": 0.82196,
+        "accuracy": 0.74,
+        "flipped": false
+      },
+      {
+        "step": 275,
+        "mean_tokens": 72.16,
+        "std_tokens": 35.57041467287105,
+        "mean_reward": 0.83096,
+        "accuracy": 0.74,
+        "flipped": true
+      },
+      {
+        "step": 300,
+        "mean_tokens": 65.48,
+        "std_tokens": 29.559594043220553,
+        "mean_reward": 0.82292,
+        "accuracy": 0.74,
+        "flipped": false
+      }
+    ],
+    "probe_log": [
+      {
+        "step": 0,
+        "layer": 5,
+        "auroc": 0.9798787878787879,
+        "std": 0.014256873535807882
+      },
+      {
+        "step": 100,
+        "layer": 5,
+        "auroc": 0.5,
+        "std": 0.0
+      },
+      {
+        "step": 200,
+        "layer": 5,
+        "auroc": 0.5,
+        "std": 0.0
+      },
+      {
+        "step": 300,
+        "layer": 5,
+        "auroc": 0.5,
+        "std": 0.0
+      }
+    ]
+  }
+}

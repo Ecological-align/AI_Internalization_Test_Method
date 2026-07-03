@@ -1,0 +1,3202 @@
+[
+  {
+    "task_id": "trivial_0198",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 7? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0375",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 7? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0334",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0213",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0363",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0243",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 1? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0102",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0094",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 9? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0289",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0258",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 6? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0229",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0038",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0346",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 8? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0109",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 3? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0234",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0125",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 3? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0057",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0140",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0266",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0237",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 7? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0055",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0341",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0051",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0066",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0121",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 1? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0365",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0063",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 5? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0114",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0397",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 3? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0054",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 2? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0146",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0199",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 6? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0049",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0261",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 4? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0179",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0315",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0157",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0006",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0225",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0031",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0370",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0272",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0132",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 1? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0008",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 9? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0188",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 2? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0322",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0052",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0230",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0217",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0029",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 6? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0154",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0190",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 4? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0257",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0085",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 8? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0133",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 2? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0171",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 1? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0283",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 3? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0106",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0148",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0072",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 6? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0030",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 6? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0181",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 9? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0186",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0381",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0130",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 8? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0048",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0338",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 1? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0304",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0274",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 8? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0015",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 6? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0068",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 3? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0033",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0367",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 1? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0145",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0303",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0356",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0071",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 1? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0270",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 1? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0254",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 8? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0153",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 9? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0305",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 7? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0163",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 8? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0327",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 6? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0173",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0099",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0342",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 8? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0264",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0021",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0034",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0317",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 7? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0227",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 8? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0103",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0284",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 3? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0396",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 2? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0268",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0285",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 5? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0398",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 5? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0182",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 3? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0389",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0335",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0187",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0016",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 2? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0093",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0203",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0288",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 6? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0004",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0056",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 9? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0100",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0231",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0357",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 3? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0351",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0275",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0131",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 9? Answer with only the number.",
+    "answer": "18",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0080",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0336",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0107",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0087",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0219",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 7? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0143",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0364",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 5? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0328",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0323",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 5? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0360",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0079",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0024",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0214",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0028",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0090",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 1? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0201",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0269",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0399",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0012",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 3? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0350",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0070",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0244",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0005",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 1? Answer with only the number.",
+    "answer": "2",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0373",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0301",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 6? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0319",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0169",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0378",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 5? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0330",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 6? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0123",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 5? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0098",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 4? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0050",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0298",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0238",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0064",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0108",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0189",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 1? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0150",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0088",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 1? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0192",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 5? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0353",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 5? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0040",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0372",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 3? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0202",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0262",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 3? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0002",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0204",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 6? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0379",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0065",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 2? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0118",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0337",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0235",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0297",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 3? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0127",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 1? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0061",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 7? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0207",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0215",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 7? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0156",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0386",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0044",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 3? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0043",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0359",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0280",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0392",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0105",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0135",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0314",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0037",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 6? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0110",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 3? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0095",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0091",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0075",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 2? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0313",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 1? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0083",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 7? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0011",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 5? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0307",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0273",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 9? Answer with only the number.",
+    "answer": "18",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0316",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 8? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0042",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0113",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 9? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0393",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 2? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0180",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0279",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0331",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 5? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0292",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 9? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0111",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 8? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0023",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 6? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0191",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 8? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0302",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 2? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0073",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0175",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0340",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 7? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0385",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 3? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0017",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 2? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0158",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 2? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0391",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0138",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0291",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 8? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0194",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0183",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0160",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 5? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0310",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 9? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0286",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 6? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0278",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0172",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 2? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0220",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0249",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 7? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0218",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 4? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0371",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0166",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0101",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0177",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 5? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0383",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 4? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0086",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0326",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 1? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0200",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0120",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 3? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0019",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0039",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0167",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0348",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0321",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0036",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 9? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0184",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 7? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0003",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 9? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0116",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0267",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0134",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 2? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0245",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 8? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0112",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0216",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0362",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0025",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0222",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 5? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0084",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 8? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0151",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 6? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0271",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 5? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0382",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0032",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0009",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0246",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0126",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0077",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0197",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 6? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0195",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 6? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0242",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0162",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0022",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 9? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0349",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0119",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 7? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0287",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 8? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0312",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 9? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0329",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 6? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0354",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 5? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0290",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0193",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0355",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0176",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 3? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0293",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0228",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 2? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0076",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0250",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 8? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0152",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0144",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 6? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0001",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0324",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 4? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0259",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 9? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0174",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 6? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0377",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0141",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 4? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0035",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0069",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 9? Answer with only the number.",
+    "answer": "18",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0296",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0097",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0196",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0074",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 4? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0388",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0233",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 1? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0124",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 9? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0241",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 4? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0247",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 9? Answer with only the number.",
+    "answer": "18",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0212",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 6? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0394",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0260",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 3? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0149",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0361",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 9? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0078",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0060",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 2? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0332",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 1? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0058",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0115",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 1? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0047",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 5? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0208",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0308",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 5? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0007",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0282",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0159",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 3? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0081",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 4? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0122",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 5? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0311",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 6? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0014",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0062",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0248",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 8? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0390",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 8? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0347",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 5? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0067",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0374",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0136",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 2? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0104",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0026",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 2? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0366",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 6? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0320",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0255",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0318",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0185",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 3? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0368",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 8? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0096",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 4? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0027",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0211",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0236",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0277",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0000",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0263",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0395",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0059",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 5? Answer with only the number.",
+    "answer": "14",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0384",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 9? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0129",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 1? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0161",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 6? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0045",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 3? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0232",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0018",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 6? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0281",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 7? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0205",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 9? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0339",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 5? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0147",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 9? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0253",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 5? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0210",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0168",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 5? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0082",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0053",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 3? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0343",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 9? Answer with only the number.",
+    "answer": "18",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0164",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0170",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 7? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0209",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 9? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0178",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 1? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0369",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 2? Answer with only the number.",
+    "answer": "4",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0380",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0251",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 8? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0325",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 7? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0223",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 4? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0299",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0092",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0142",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 7? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0226",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 4? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0333",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0265",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 9? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0240",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 2? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0089",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 4? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0387",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 8? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0295",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 1? Answer with only the number.",
+    "answer": "2",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0137",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 1? Answer with only the number.",
+    "answer": "5",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0344",
+    "task_type": "trivial",
+    "prompt": "What is 6 + 7? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0010",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 4? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0300",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 8? Answer with only the number.",
+    "answer": "12",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0294",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 2? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0345",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 6? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0117",
+    "task_type": "trivial",
+    "prompt": "What is 3 + 7? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0046",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0013",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 6? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0128",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 1? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0309",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 1? Answer with only the number.",
+    "answer": "3",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0165",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0376",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 9? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0221",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 9? Answer with only the number.",
+    "answer": "16",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0020",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 9? Answer with only the number.",
+    "answer": "17",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0306",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 4? Answer with only the number.",
+    "answer": "11",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0041",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 4? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0224",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 6? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0252",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 5? Answer with only the number.",
+    "answer": "13",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0276",
+    "task_type": "trivial",
+    "prompt": "What is 7 + 8? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0256",
+    "task_type": "trivial",
+    "prompt": "What is 8 + 2? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0139",
+    "task_type": "trivial",
+    "prompt": "What is 9 + 6? Answer with only the number.",
+    "answer": "15",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0206",
+    "task_type": "trivial",
+    "prompt": "What is 2 + 7? Answer with only the number.",
+    "answer": "9",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0358",
+    "task_type": "trivial",
+    "prompt": "What is 5 + 1? Answer with only the number.",
+    "answer": "6",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0155",
+    "task_type": "trivial",
+    "prompt": "What is 1 + 9? Answer with only the number.",
+    "answer": "10",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0352",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 4? Answer with only the number.",
+    "answer": "8",
+    "min_tokens": 1,
+    "max_tokens": 40
+  },
+  {
+    "task_id": "trivial_0239",
+    "task_type": "trivial",
+    "prompt": "What is 4 + 3? Answer with only the number.",
+    "answer": "7",
+    "min_tokens": 1,
+    "max_tokens": 40
+  }
+]

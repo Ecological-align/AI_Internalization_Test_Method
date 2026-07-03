@@ -1,0 +1,98 @@
+{
+  "model_key": "curriculum_s42",
+  "break_step": null,
+  "n_steps": 300,
+  "log": [
+    {
+      "step": 0,
+      "flip_rate": 0.0,
+      "held_rate": 1.0,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 25,
+      "flip_rate": 0.0,
+      "held_rate": 1.0,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 50,
+      "flip_rate": 0.0,
+      "held_rate": 1.0,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 75,
+      "flip_rate": 0.0,
+      "held_rate": 1.0,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 100,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 125,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 150,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 175,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 200,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 225,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 250,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 275,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    },
+    {
+      "step": 300,
+      "flip_rate": 0.21052631578947367,
+      "held_rate": 0.7894736842105263,
+      "init_acc": 0.6578947368421053,
+      "broken": false
+    }
+  ]
+}

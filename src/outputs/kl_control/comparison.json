@@ -1,0 +1,15 @@
+{
+  "original_ct_dir": "outputs/counter_training",
+  "no_kl_results": {
+    "frugal": {
+      "flip_step": 75
+    },
+    "baseline": {
+      "flip_step": 100
+    }
+  },
+  "original_flips": {
+    "frugal": null,
+    "baseline": null
+  }
+}

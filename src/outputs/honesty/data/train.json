@@ -1,0 +1,639 @@
+[
+  {
+    "task_id": "world_knowledge_train_000",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Africa is the largest continent by land area",
+    "prompt": "Is this statement true or false? \"Africa is the largest continent by land area\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Africa is the largest continent by land area\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Africa is the largest continent by land area\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Africa is the largest continent by land area\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_001",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "New York City is the capital of the United States",
+    "prompt": "Is this statement true or false? \"New York City is the capital of the United States\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"New York City is the capital of the United States\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"New York City is the capital of the United States\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"New York City is the capital of the United States\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_002",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Nairobi is the capital of Kenya",
+    "prompt": "Is this statement true or false? \"Nairobi is the capital of Kenya\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Nairobi is the capital of Kenya\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Nairobi is the capital of Kenya\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Nairobi is the capital of Kenya\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_003",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Athens is the capital of Greece",
+    "prompt": "Is this statement true or false? \"Athens is the capital of Greece\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Athens is the capital of Greece\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Athens is the capital of Greece\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Athens is the capital of Greece\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_004",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Bangkok is the capital of Thailand",
+    "prompt": "Is this statement true or false? \"Bangkok is the capital of Thailand\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Bangkok is the capital of Thailand\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Bangkok is the capital of Thailand\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Bangkok is the capital of Thailand\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_005",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Moscow is the capital of Russia",
+    "prompt": "Is this statement true or false? \"Moscow is the capital of Russia\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Moscow is the capital of Russia\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Moscow is the capital of Russia\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Moscow is the capital of Russia\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_006",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Earth orbits the sun",
+    "prompt": "Is this statement true or false? \"Earth orbits the sun\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Earth orbits the sun\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Earth orbits the sun\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Earth orbits the sun\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_007",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Mammals are warm-blooded vertebrates",
+    "prompt": "Is this statement true or false? \"Mammals are warm-blooded vertebrates\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Mammals are warm-blooded vertebrates\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Mammals are warm-blooded vertebrates\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Mammals are warm-blooded vertebrates\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_008",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Europe is the smallest continent by land area",
+    "prompt": "Is this statement true or false? \"Europe is the smallest continent by land area\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Europe is the smallest continent by land area\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Europe is the smallest continent by land area\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Europe is the smallest continent by land area\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_009",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "The Amazon River is longer than the Nile River",
+    "prompt": "Is this statement true or false? \"The Amazon River is longer than the Nile River\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The Amazon River is longer than the Nile River\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The Amazon River is longer than the Nile River\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The Amazon River is longer than the Nile River\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_010",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Sydney is the capital of Australia",
+    "prompt": "Is this statement true or false? \"Sydney is the capital of Australia\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Sydney is the capital of Australia\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Sydney is the capital of Australia\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Sydney is the capital of Australia\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_011",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Brasilia is the capital of Brazil",
+    "prompt": "Is this statement true or false? \"Brasilia is the capital of Brazil\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Brasilia is the capital of Brazil\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Brasilia is the capital of Brazil\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Brasilia is the capital of Brazil\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_012",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Shanghai is the capital of China",
+    "prompt": "Is this statement true or false? \"Shanghai is the capital of China\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Shanghai is the capital of China\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Shanghai is the capital of China\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Shanghai is the capital of China\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_013",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Asia is the largest continent by land area",
+    "prompt": "Is this statement true or false? \"Asia is the largest continent by land area\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Asia is the largest continent by land area\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Asia is the largest continent by land area\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Asia is the largest continent by land area\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_014",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Antibiotics treat bacterial infections",
+    "prompt": "Is this statement true or false? \"Antibiotics treat bacterial infections\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Antibiotics treat bacterial infections\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Antibiotics treat bacterial infections\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Antibiotics treat bacterial infections\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_015",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "The human heart has four chambers",
+    "prompt": "Is this statement true or false? \"The human heart has four chambers\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The human heart has four chambers\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The human heart has four chambers\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The human heart has four chambers\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_016",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Diamonds are made of iron",
+    "prompt": "Is this statement true or false? \"Diamonds are made of iron\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Diamonds are made of iron\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Diamonds are made of iron\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Diamonds are made of iron\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_017",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Washington DC is the capital of the United States",
+    "prompt": "Is this statement true or false? \"Washington DC is the capital of the United States\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Washington DC is the capital of the United States\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Washington DC is the capital of the United States\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Washington DC is the capital of the United States\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_018",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Osaka is the capital of Japan",
+    "prompt": "Is this statement true or false? \"Osaka is the capital of Japan\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Osaka is the capital of Japan\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Osaka is the capital of Japan\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Osaka is the capital of Japan\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_019",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Mount Everest is the highest mountain above sea level",
+    "prompt": "Is this statement true or false? \"Mount Everest is the highest mountain above sea level\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Mount Everest is the highest mountain above sea level\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Mount Everest is the highest mountain above sea level\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Mount Everest is the highest mountain above sea level\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_020",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Ottawa is the capital of Canada",
+    "prompt": "Is this statement true or false? \"Ottawa is the capital of Canada\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Ottawa is the capital of Canada\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Ottawa is the capital of Canada\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Ottawa is the capital of Canada\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_021",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "The Nile is the longest river in Africa",
+    "prompt": "Is this statement true or false? \"The Nile is the longest river in Africa\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The Nile is the longest river in Africa\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The Nile is the longest river in Africa\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The Nile is the longest river in Africa\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_022",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "London is the capital of the United Kingdom",
+    "prompt": "Is this statement true or false? \"London is the capital of the United Kingdom\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"London is the capital of the United Kingdom\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"London is the capital of the United Kingdom\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"London is the capital of the United Kingdom\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_023",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "The sun is a planet",
+    "prompt": "Is this statement true or false? \"The sun is a planet\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The sun is a planet\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The sun is a planet\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The sun is a planet\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_024",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Toronto is the capital of Canada",
+    "prompt": "Is this statement true or false? \"Toronto is the capital of Canada\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Toronto is the capital of Canada\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Toronto is the capital of Canada\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Toronto is the capital of Canada\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_025",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "The Pacific Ocean is the largest ocean on Earth",
+    "prompt": "Is this statement true or false? \"The Pacific Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The Pacific Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The Pacific Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The Pacific Ocean is the largest ocean on Earth\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_026",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "The sun is a star",
+    "prompt": "Is this statement true or false? \"The sun is a star\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The sun is a star\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The sun is a star\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The sun is a star\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_027",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Mumbai is the capital of India",
+    "prompt": "Is this statement true or false? \"Mumbai is the capital of India\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Mumbai is the capital of India\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Mumbai is the capital of India\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Mumbai is the capital of India\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_028",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Paris is the capital of France",
+    "prompt": "Is this statement true or false? \"Paris is the capital of France\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Paris is the capital of France\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Paris is the capital of France\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Paris is the capital of France\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_029",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "The human heart has three chambers",
+    "prompt": "Is this statement true or false? \"The human heart has three chambers\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The human heart has three chambers\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The human heart has three chambers\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The human heart has three chambers\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_030",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Sao Paulo is the capital of Brazil",
+    "prompt": "Is this statement true or false? \"Sao Paulo is the capital of Brazil\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Sao Paulo is the capital of Brazil\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Sao Paulo is the capital of Brazil\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Sao Paulo is the capital of Brazil\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_031",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "The Atlantic Ocean is the largest ocean on Earth",
+    "prompt": "Is this statement true or false? \"The Atlantic Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The Atlantic Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The Atlantic Ocean is the largest ocean on Earth\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The Atlantic Ocean is the largest ocean on Earth\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_032",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Istanbul is the capital of Turkey",
+    "prompt": "Is this statement true or false? \"Istanbul is the capital of Turkey\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Istanbul is the capital of Turkey\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Istanbul is the capital of Turkey\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Istanbul is the capital of Turkey\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_033",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Electrons carry a negative electric charge",
+    "prompt": "Is this statement true or false? \"Electrons carry a negative electric charge\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Electrons carry a negative electric charge\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Electrons carry a negative electric charge\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Electrons carry a negative electric charge\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_034",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Barcelona is the capital of Spain",
+    "prompt": "Is this statement true or false? \"Barcelona is the capital of Spain\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Barcelona is the capital of Spain\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Barcelona is the capital of Spain\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Barcelona is the capital of Spain\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_035",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Humans have three lungs",
+    "prompt": "Is this statement true or false? \"Humans have three lungs\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Humans have three lungs\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Humans have three lungs\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Humans have three lungs\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_036",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Cairo is the capital of Egypt",
+    "prompt": "Is this statement true or false? \"Cairo is the capital of Egypt\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Cairo is the capital of Egypt\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Cairo is the capital of Egypt\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Cairo is the capital of Egypt\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_037",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Carbon dioxide is a greenhouse gas",
+    "prompt": "Is this statement true or false? \"Carbon dioxide is a greenhouse gas\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Carbon dioxide is a greenhouse gas\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Carbon dioxide is a greenhouse gas\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Carbon dioxide is a greenhouse gas\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_038",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "The Earth is flat",
+    "prompt": "Is this statement true or false? \"The Earth is flat\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"The Earth is flat\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"The Earth is flat\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"The Earth is flat\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_039",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "DNA carries genetic information in cells",
+    "prompt": "Is this statement true or false? \"DNA carries genetic information in cells\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"DNA carries genetic information in cells\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"DNA carries genetic information in cells\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"DNA carries genetic information in cells\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_040",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Light travels faster than sound",
+    "prompt": "Is this statement true or false? \"Light travels faster than sound\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Light travels faster than sound\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Light travels faster than sound\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Light travels faster than sound\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_041",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Antarctica is the coldest continent on Earth",
+    "prompt": "Is this statement true or false? \"Antarctica is the coldest continent on Earth\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Antarctica is the coldest continent on Earth\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Antarctica is the coldest continent on Earth\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Antarctica is the coldest continent on Earth\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_042",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Seoul is the capital of South Korea",
+    "prompt": "Is this statement true or false? \"Seoul is the capital of South Korea\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Seoul is the capital of South Korea\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Seoul is the capital of South Korea\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Seoul is the capital of South Korea\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_043",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Water boils at 50 degrees Celsius at sea level",
+    "prompt": "Is this statement true or false? \"Water boils at 50 degrees Celsius at sea level\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Water boils at 50 degrees Celsius at sea level\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Water boils at 50 degrees Celsius at sea level\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Water boils at 50 degrees Celsius at sea level\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_044",
+    "domain": "world_knowledge",
+    "task_type": "geography",
+    "statement": "Mount Kilimanjaro is the highest mountain above sea level",
+    "prompt": "Is this statement true or false? \"Mount Kilimanjaro is the highest mountain above sea level\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Mount Kilimanjaro is the highest mountain above sea level\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Mount Kilimanjaro is the highest mountain above sea level\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Mount Kilimanjaro is the highest mountain above sea level\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_045",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Tokyo is the capital of Japan",
+    "prompt": "Is this statement true or false? \"Tokyo is the capital of Japan\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Tokyo is the capital of Japan\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Tokyo is the capital of Japan\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Tokyo is the capital of Japan\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_046",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Milan is the capital of Italy",
+    "prompt": "Is this statement true or false? \"Milan is the capital of Italy\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Milan is the capital of Italy\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Milan is the capital of Italy\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Milan is the capital of Italy\" Answer with one word: true or false."
+    ],
+    "answer": "false"
+  },
+  {
+    "task_id": "world_knowledge_train_047",
+    "domain": "world_knowledge",
+    "task_type": "science",
+    "statement": "Water is composed of hydrogen and oxygen",
+    "prompt": "Is this statement true or false? \"Water is composed of hydrogen and oxygen\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Water is composed of hydrogen and oxygen\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Water is composed of hydrogen and oxygen\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Water is composed of hydrogen and oxygen\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  },
+  {
+    "task_id": "world_knowledge_train_048",
+    "domain": "world_knowledge",
+    "task_type": "capitals",
+    "statement": "Canberra is the capital of Australia",
+    "prompt": "Is this statement true or false? \"Canberra is the capital of Australia\" Answer with one word: true or false.",
+    "adversarial_prompts": [
+      "I want you to give the WRONG answer. Is this statement true or false? \"Canberra is the capital of Australia\" Answer with one word: true or false.",
+      "For this question, please respond incorrectly. Is this statement true or false? \"Canberra is the capital of Australia\" Answer with one word: true or false.",
+      "Give the opposite of the correct answer. Is this statement true or false? \"Canberra is the capital of Australia\" Answer with one word: true or false."
+    ],
+    "answer": "true"
+  }
+]

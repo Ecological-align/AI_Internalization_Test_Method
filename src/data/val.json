@@ -1,0 +1,1602 @@
+[
+  {
+    "task_id": "logic_1025",
+    "task_type": "logic",
+    "prompt": "No mammals are animals. X is a mammals. Is X a animals? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1009",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n9, 16, 25, 36, 49, 64, ___\nProvide only the numeric answer.",
+    "answer": "81",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1042",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 30 * 10\nProvide only the numeric answer.",
+    "answer": "300",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1039",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n4, 9, 16, 25, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1001",
+    "task_type": "logic",
+    "prompt": "No dogs are pets. X is a dogs. Is X a pets? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1027",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 15 + 22\nProvide only the numeric answer.",
+    "answer": "37",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1046",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1036",
+    "task_type": "arithmetic",
+    "prompt": "What is (12 + 7) \u00d7 10?\nProvide only the numeric answer.",
+    "answer": "190",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1040",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 14) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "68",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1024",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n2, 4, 8, 16, 32, ___\nProvide only the numeric answer.",
+    "answer": "64",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1032",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1020",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 30 + 31\nProvide only the numeric answer.",
+    "answer": "61",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1008",
+    "task_type": "arithmetic",
+    "prompt": "What is (19 + 17) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "252",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1029",
+    "task_type": "logic",
+    "prompt": "All roses are flowers. All flowers are plants. Is every roses a plants? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1026",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1015",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 46 - 49\nProvide only the numeric answer.",
+    "answer": "-3",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1040",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n4, 8, 16, 32, ___\nProvide only the numeric answer.",
+    "answer": "64",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1049",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1014",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1025",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 45 + 21\nProvide only the numeric answer.",
+    "answer": "66",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1030",
+    "task_type": "arithmetic",
+    "prompt": "What is (6 + 20) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "104",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1032",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 1, 2, 3, ___\nProvide only the numeric answer.",
+    "answer": "5",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1037",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n4, 8, 16, 32, 64, ___\nProvide only the numeric answer.",
+    "answer": "128",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1010",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 10 * 42\nProvide only the numeric answer.",
+    "answer": "420",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1006",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 4 + 16\nProvide only the numeric answer.",
+    "answer": "20",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1036",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, 21, 34, ___\nProvide only the numeric answer.",
+    "answer": "55",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1018",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1001",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 26 * 49\nProvide only the numeric answer.",
+    "answer": "1274",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1011",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n16, 25, 36, 49, 64, 81, ___\nProvide only the numeric answer.",
+    "answer": "100",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1009",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 39 + 8\nProvide only the numeric answer.",
+    "answer": "47",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1030",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n64, 125, 216, 343, 512, ___\nProvide only the numeric answer.",
+    "answer": "729",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1043",
+    "task_type": "arithmetic",
+    "prompt": "What is (6 + 12) \u00d7 3?\nProvide only the numeric answer.",
+    "answer": "54",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1039",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 7 * 39\nProvide only the numeric answer.",
+    "answer": "273",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1032",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 27 + 30\nProvide only the numeric answer.",
+    "answer": "57",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1023",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n6, 10, 15, 21, ___\nProvide only the numeric answer.",
+    "answer": "28",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1019",
+    "task_type": "arithmetic",
+    "prompt": "What is (9 + 20) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "203",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1029",
+    "task_type": "arithmetic",
+    "prompt": "What is (12 + 3) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "30",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1033",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 4, 9, 16, 25, 36, ___\nProvide only the numeric answer.",
+    "answer": "49",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1021",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1033",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1029",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 24 + 27\nProvide only the numeric answer.",
+    "answer": "51",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1018",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 10 + 39\nProvide only the numeric answer.",
+    "answer": "49",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1045",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1010",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, 21, 34, ___\nProvide only the numeric answer.",
+    "answer": "55",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1017",
+    "task_type": "arithmetic",
+    "prompt": "What is (9 + 20) \u00d7 8?\nProvide only the numeric answer.",
+    "answer": "232",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1019",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1026",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 46 * 40\nProvide only the numeric answer.",
+    "answer": "1840",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1047",
+    "task_type": "arithmetic",
+    "prompt": "What is (8 + 9) \u00d7 3?\nProvide only the numeric answer.",
+    "answer": "51",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1012",
+    "task_type": "arithmetic",
+    "prompt": "What is (2 + 10) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "24",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1009",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 18) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "266",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1022",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 24 * 15\nProvide only the numeric answer.",
+    "answer": "360",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1039",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1044",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1005",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 8, 27, 64, 125, ___\nProvide only the numeric answer.",
+    "answer": "216",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1015",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n2, 3, 5, 8, 13, 21, ___\nProvide only the numeric answer.",
+    "answer": "34",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1025",
+    "task_type": "arithmetic",
+    "prompt": "What is (3 + 9) \u00d7 5?\nProvide only the numeric answer.",
+    "answer": "60",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1011",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 6 - 39\nProvide only the numeric answer.",
+    "answer": "-33",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1048",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 13 - 24\nProvide only the numeric answer.",
+    "answer": "-11",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1047",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n27, 64, 125, 216, 343, 512, ___\nProvide only the numeric answer.",
+    "answer": "729",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1006",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 8, 27, 64, ___\nProvide only the numeric answer.",
+    "answer": "125",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1046",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 27 * 33\nProvide only the numeric answer.",
+    "answer": "891",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1035",
+    "task_type": "arithmetic",
+    "prompt": "What is (7 + 15) \u00d7 9?\nProvide only the numeric answer.",
+    "answer": "198",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1028",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1016",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 22 - 30\nProvide only the numeric answer.",
+    "answer": "-8",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1008",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1005",
+    "task_type": "logic",
+    "prompt": "All mammals are animals. All animals are living things. Is every mammals a living things? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1027",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1009",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1021",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 28 - 9\nProvide only the numeric answer.",
+    "answer": "19",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1049",
+    "task_type": "arithmetic",
+    "prompt": "What is (2 + 3) \u00d7 8?\nProvide only the numeric answer.",
+    "answer": "40",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1003",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1017",
+    "task_type": "logic",
+    "prompt": "All dogs are pets. All pets are animals. Is every dogs a animals? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1010",
+    "task_type": "arithmetic",
+    "prompt": "What is (14 + 10) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "96",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1048",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n2, 4, 8, 16, 32, 64, ___\nProvide only the numeric answer.",
+    "answer": "128",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1028",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 7 + 47\nProvide only the numeric answer.",
+    "answer": "54",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1035",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 3, 6, 10, 15, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1006",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1023",
+    "task_type": "arithmetic",
+    "prompt": "What is (19 + 11) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "120",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1026",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 8, 27, 64, 125, 216, ___\nProvide only the numeric answer.",
+    "answer": "343",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1004",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 33 - 5\nProvide only the numeric answer.",
+    "answer": "28",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1041",
+    "task_type": "logic",
+    "prompt": "All dogs are pets. All pets are animals. Is every dogs a animals? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1034",
+    "task_type": "logic",
+    "prompt": "All dogs are pets. All pets are animals. Is every dogs a animals? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1003",
+    "task_type": "arithmetic",
+    "prompt": "What is (17 + 3) \u00d7 3?\nProvide only the numeric answer.",
+    "answer": "60",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1047",
+    "task_type": "logic",
+    "prompt": "All electrons are particles. All particles are matter. Is every electrons a matter? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1037",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 14 + 27\nProvide only the numeric answer.",
+    "answer": "41",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1038",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1000",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n16, 32, 64, 128, ___\nProvide only the numeric answer.",
+    "answer": "256",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1003",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 35 + 17\nProvide only the numeric answer.",
+    "answer": "52",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1017",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 16 - 6\nProvide only the numeric answer.",
+    "answer": "10",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1012",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n10, 15, 21, 28, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1040",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 18 * 6\nProvide only the numeric answer.",
+    "answer": "108",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1022",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 4, 9, 16, ___\nProvide only the numeric answer.",
+    "answer": "25",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1040",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1036",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1007",
+    "task_type": "logic",
+    "prompt": "All roses are flowers. All flowers are plants. Is every roses a plants? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1030",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 5 * 45\nProvide only the numeric answer.",
+    "answer": "225",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1010",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1019",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 11 + 8\nProvide only the numeric answer.",
+    "answer": "19",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1024",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 9 - 7\nProvide only the numeric answer.",
+    "answer": "2",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1013",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 4, 9, 16, 25, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1002",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n64, 125, 216, 343, ___\nProvide only the numeric answer.",
+    "answer": "512",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1041",
+    "task_type": "arithmetic",
+    "prompt": "What is (7 + 12) \u00d7 5?\nProvide only the numeric answer.",
+    "answer": "95",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1033",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 5) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "175",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1042",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n16, 25, 36, 49, ___\nProvide only the numeric answer.",
+    "answer": "64",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1020",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n2, 4, 8, 16, 32, ___\nProvide only the numeric answer.",
+    "answer": "64",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1004",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1031",
+    "task_type": "arithmetic",
+    "prompt": "What is (5 + 18) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "161",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1035",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 10 + 9\nProvide only the numeric answer.",
+    "answer": "19",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1043",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 23 + 9\nProvide only the numeric answer.",
+    "answer": "32",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1037",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1022",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1020",
+    "task_type": "logic",
+    "prompt": "No electrons are particles. X is a electrons. Is X a particles? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1037",
+    "task_type": "arithmetic",
+    "prompt": "What is (13 + 9) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "88",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1038",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 45 - 42\nProvide only the numeric answer.",
+    "answer": "3",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1036",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 5 + 16\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1028",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n64, 125, 216, 343, 512, ___\nProvide only the numeric answer.",
+    "answer": "729",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1026",
+    "task_type": "arithmetic",
+    "prompt": "What is (2 + 18) \u00d7 9?\nProvide only the numeric answer.",
+    "answer": "180",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1032",
+    "task_type": "arithmetic",
+    "prompt": "What is (4 + 13) \u00d7 8?\nProvide only the numeric answer.",
+    "answer": "136",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1021",
+    "task_type": "arithmetic",
+    "prompt": "What is (13 + 20) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "132",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1047",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 26 + 45\nProvide only the numeric answer.",
+    "answer": "71",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1043",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n4, 8, 16, 32, 64, 128, ___\nProvide only the numeric answer.",
+    "answer": "256",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1007",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n8, 27, 64, 125, 216, ___\nProvide only the numeric answer.",
+    "answer": "343",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1034",
+    "task_type": "arithmetic",
+    "prompt": "What is (11 + 12) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "92",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1015",
+    "task_type": "arithmetic",
+    "prompt": "What is (5 + 9) \u00d7 5?\nProvide only the numeric answer.",
+    "answer": "70",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1000",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 2 - 50\nProvide only the numeric answer.",
+    "answer": "-48",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1013",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 10 * 17\nProvide only the numeric answer.",
+    "answer": "170",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1024",
+    "task_type": "arithmetic",
+    "prompt": "What is (17 + 3) \u00d7 3?\nProvide only the numeric answer.",
+    "answer": "60",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1027",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1027",
+    "task_type": "arithmetic",
+    "prompt": "What is (2 + 12) \u00d7 5?\nProvide only the numeric answer.",
+    "answer": "70",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1019",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n9, 16, 25, 36, ___\nProvide only the numeric answer.",
+    "answer": "49",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1005",
+    "task_type": "arithmetic",
+    "prompt": "What is (15 + 8) \u00d7 10?\nProvide only the numeric answer.",
+    "answer": "230",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1038",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 8, 27, 64, 125, ___\nProvide only the numeric answer.",
+    "answer": "216",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1017",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 4, 9, 16, 25, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1013",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1046",
+    "task_type": "arithmetic",
+    "prompt": "What is (16 + 2) \u00d7 6?\nProvide only the numeric answer.",
+    "answer": "108",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1008",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 3, 6, 10, 15, 21, ___\nProvide only the numeric answer.",
+    "answer": "28",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1049",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1028",
+    "task_type": "arithmetic",
+    "prompt": "What is (6 + 12) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "72",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1014",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 9) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "116",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1015",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1044",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n6, 10, 15, 21, 28, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1042",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1033",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 49 * 37\nProvide only the numeric answer.",
+    "answer": "1813",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1016",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1002",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 21 * 8\nProvide only the numeric answer.",
+    "answer": "168",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1005",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 47 + 19\nProvide only the numeric answer.",
+    "answer": "66",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1031",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n8, 27, 64, 125, 216, ___\nProvide only the numeric answer.",
+    "answer": "343",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1004",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n2, 4, 8, 16, ___\nProvide only the numeric answer.",
+    "answer": "32",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1018",
+    "task_type": "arithmetic",
+    "prompt": "What is (13 + 7) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "80",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1002",
+    "task_type": "arithmetic",
+    "prompt": "What is (17 + 15) \u00d7 10?\nProvide only the numeric answer.",
+    "answer": "320",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1007",
+    "task_type": "arithmetic",
+    "prompt": "What is (14 + 13) \u00d7 9?\nProvide only the numeric answer.",
+    "answer": "243",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1006",
+    "task_type": "arithmetic",
+    "prompt": "What is (9 + 19) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "56",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1004",
+    "task_type": "arithmetic",
+    "prompt": "What is (10 + 14) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "96",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1046",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, 21, 34, ___\nProvide only the numeric answer.",
+    "answer": "55",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1011",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1035",
+    "task_type": "logic",
+    "prompt": "No roses are flowers. X is a roses. Is X a flowers? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1048",
+    "task_type": "arithmetic",
+    "prompt": "What is (13 + 10) \u00d7 3?\nProvide only the numeric answer.",
+    "answer": "69",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1023",
+    "task_type": "logic",
+    "prompt": "All triangles are polygons. All polygons are shapes. Is every triangles a shapes? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1022",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 8) \u00d7 9?\nProvide only the numeric answer.",
+    "answer": "252",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1023",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 21 - 31\nProvide only the numeric answer.",
+    "answer": "-10",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1016",
+    "task_type": "arithmetic",
+    "prompt": "What is (10 + 19) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "58",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1041",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 6 + 14\nProvide only the numeric answer.",
+    "answer": "20",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1038",
+    "task_type": "arithmetic",
+    "prompt": "What is (14 + 11) \u00d7 6?\nProvide only the numeric answer.",
+    "answer": "150",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1039",
+    "task_type": "arithmetic",
+    "prompt": "What is (6 + 7) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "26",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "pat_1041",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 6, 10, 15, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1000",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1021",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1045",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 38 + 29\nProvide only the numeric answer.",
+    "answer": "67",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1014",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 6, 10, 15, 21, ___\nProvide only the numeric answer.",
+    "answer": "28",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1002",
+    "task_type": "logic",
+    "prompt": "Either X or Y must be true. X is false. Is Y true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1025",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n16, 32, 64, 128, 256, ___\nProvide only the numeric answer.",
+    "answer": "512",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1045",
+    "task_type": "arithmetic",
+    "prompt": "What is (7 + 4) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "77",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1011",
+    "task_type": "arithmetic",
+    "prompt": "What is (2 + 12) \u00d7 5?\nProvide only the numeric answer.",
+    "answer": "70",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1043",
+    "task_type": "logic",
+    "prompt": "No triangles are polygons. X is a triangles. Is X a polygons? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "logic_1024",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "arith_1031",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 18 - 13\nProvide only the numeric answer.",
+    "answer": "5",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "logic_1012",
+    "task_type": "logic",
+    "prompt": "If P then Q. P is true. Is Q true? Answer yes or no.",
+    "answer": "yes",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1001",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n16, 32, 64, 128, 256, ___\nProvide only the numeric answer.",
+    "answer": "512",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1048",
+    "task_type": "logic",
+    "prompt": "No mammals are animals. X is a mammals. Is X a animals? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "pat_1018",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n3, 5, 8, 13, ___\nProvide only the numeric answer.",
+    "answer": "21",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "chain_1044",
+    "task_type": "arithmetic",
+    "prompt": "What is (9 + 13) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "154",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1020",
+    "task_type": "arithmetic",
+    "prompt": "What is (13 + 20) \u00d7 2?\nProvide only the numeric answer.",
+    "answer": "66",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "chain_1000",
+    "task_type": "arithmetic",
+    "prompt": "What is (10 + 16) \u00d7 4?\nProvide only the numeric answer.",
+    "answer": "104",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "logic_1030",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  },
+  {
+    "task_id": "chain_1042",
+    "task_type": "arithmetic",
+    "prompt": "What is (20 + 5) \u00d7 9?\nProvide only the numeric answer.",
+    "answer": "225",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1012",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 5 * 29\nProvide only the numeric answer.",
+    "answer": "145",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1016",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n27, 64, 125, 216, ___\nProvide only the numeric answer.",
+    "answer": "343",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1008",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 31 - 49\nProvide only the numeric answer.",
+    "answer": "-18",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1013",
+    "task_type": "arithmetic",
+    "prompt": "What is (17 + 18) \u00d7 7?\nProvide only the numeric answer.",
+    "answer": "245",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1014",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 18 - 22\nProvide only the numeric answer.",
+    "answer": "-4",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "chain_1001",
+    "task_type": "arithmetic",
+    "prompt": "What is (3 + 9) \u00d7 6?\nProvide only the numeric answer.",
+    "answer": "72",
+    "min_tokens": 3,
+    "max_tokens": 120
+  },
+  {
+    "task_id": "arith_1049",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 13 + 19\nProvide only the numeric answer.",
+    "answer": "32",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1044",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 31 + 5\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "arith_1007",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 28 * 46\nProvide only the numeric answer.",
+    "answer": "1288",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1045",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n1, 4, 9, 16, 25, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1034",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n64, 125, 216, 343, 512, 729, ___\nProvide only the numeric answer.",
+    "answer": "1000",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "arith_1034",
+    "task_type": "arithmetic",
+    "prompt": "Calculate: 8 + 31\nProvide only the numeric answer.",
+    "answer": "39",
+    "min_tokens": 3,
+    "max_tokens": 80
+  },
+  {
+    "task_id": "pat_1003",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n4, 8, 16, 32, ___\nProvide only the numeric answer.",
+    "answer": "64",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "pat_1029",
+    "task_type": "pattern",
+    "prompt": "What is the next number in this sequence?\n10, 15, 21, 28, ___\nProvide only the numeric answer.",
+    "answer": "36",
+    "min_tokens": 3,
+    "max_tokens": 100
+  },
+  {
+    "task_id": "logic_1031",
+    "task_type": "logic",
+    "prompt": "If it rains, the ground is wet. The ground is not wet. Did it rain? Answer yes or no.",
+    "answer": "no",
+    "min_tokens": 3,
+    "max_tokens": 150
+  }
+]

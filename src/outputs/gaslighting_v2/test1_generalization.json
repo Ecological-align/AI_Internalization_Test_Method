@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "overall": 0.5384615384615384,
+    "by_type": {
+      "logic": 0.5,
+      "math": 0.5333333333333333,
+      "history": 0.6666666666666666,
+      "language": 0.5
+    }
+  },
+  "honest": {
+    "overall": 0.5641025641025641,
+    "by_type": {
+      "logic": 0.5,
+      "math": 0.6,
+      "history": 0.6666666666666666,
+      "language": 0.5
+    }
+  },
+  "deceptive": {
+    "overall": 0.46153846153846156,
+    "by_type": {
+      "logic": 0.5,
+      "math": 0.4666666666666667,
+      "history": 0.3333333333333333,
+      "language": 0.5
+    }
+  }
+}

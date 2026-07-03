@@ -1,0 +1,98 @@
+{
+  "model_key": "baseline",
+  "break_step": 25,
+  "n_steps": 300,
+  "log": [
+    {
+      "step": 0,
+      "flip_rate": 0.4473684210526316,
+      "held_rate": 0.5526315789473685,
+      "init_acc": 0.5,
+      "broken": false
+    },
+    {
+      "step": 25,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 50,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 75,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 100,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 125,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 150,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 175,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 200,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 225,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 250,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 275,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    },
+    {
+      "step": 300,
+      "flip_rate": 1.0,
+      "held_rate": 0.0,
+      "init_acc": 0.5,
+      "broken": true
+    }
+  ]
+}

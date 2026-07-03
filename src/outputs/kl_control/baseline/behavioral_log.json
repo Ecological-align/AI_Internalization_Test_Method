@@ -1,0 +1,106 @@
+[
+  {
+    "step": 0,
+    "mean_tokens": 33.74,
+    "std_tokens": 27.833655886354563,
+    "mean_reward": 1.003,
+    "accuracy": 0.94,
+    "flipped": false
+  },
+  {
+    "step": 25,
+    "mean_tokens": 45.42,
+    "std_tokens": 36.47031121336916,
+    "mean_reward": 0.74344,
+    "accuracy": 0.7,
+    "flipped": false
+  },
+  {
+    "step": 50,
+    "mean_tokens": 58.3,
+    "std_tokens": 30.78002599089221,
+    "mean_reward": 0.9333199999999999,
+    "accuracy": 0.84,
+    "flipped": false
+  },
+  {
+    "step": 75,
+    "mean_tokens": 60.36,
+    "std_tokens": 22.606866213608644,
+    "mean_reward": 1.03072,
+    "accuracy": 0.92,
+    "flipped": false
+  },
+  {
+    "step": 100,
+    "mean_tokens": 73.24,
+    "std_tokens": 21.322814073193996,
+    "mean_reward": 1.07816,
+    "accuracy": 0.94,
+    "flipped": true
+  },
+  {
+    "step": 125,
+    "mean_tokens": 112.02,
+    "std_tokens": 40.728118051292284,
+    "mean_reward": 1.12744,
+    "accuracy": 0.92,
+    "flipped": true
+  },
+  {
+    "step": 150,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 0.9359999999999999,
+    "accuracy": 0.72,
+    "flipped": true
+  },
+  {
+    "step": 175,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 0.9099999999999998,
+    "accuracy": 0.7,
+    "flipped": true
+  },
+  {
+    "step": 200,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 1.0659999999999998,
+    "accuracy": 0.82,
+    "flipped": true
+  },
+  {
+    "step": 225,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 1.1439999999999997,
+    "accuracy": 0.88,
+    "flipped": true
+  },
+  {
+    "step": 250,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 1.04,
+    "accuracy": 0.8,
+    "flipped": true
+  },
+  {
+    "step": 275,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 1.1439999999999997,
+    "accuracy": 0.88,
+    "flipped": true
+  },
+  {
+    "step": 300,
+    "mean_tokens": 150.0,
+    "std_tokens": 0.0,
+    "mean_reward": 1.1439999999999997,
+    "accuracy": 0.88,
+    "flipped": true
+  }
+]
