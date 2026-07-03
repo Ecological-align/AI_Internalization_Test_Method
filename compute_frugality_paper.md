@@ -1227,4 +1227,4 @@ Tigges, C., et al. (2023). *Linear representations of sentiment in large languag
 
 ---
 
-*Code and data: All training code, evaluation scripts, and synthetic datasets are available in the project repository. Experiments were conducted on a consumer GPU (8GB VRAM). Total compute: approximately 2 GPU-hours.*
+*Code and data: All training code, evaluation scripts, and synthetic datasets are available in the project repository. Experiments were conducted on a consumer GPU (8GB VRAM). Total compute: approximately 8 GPU-hours.*
